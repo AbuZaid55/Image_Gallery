@@ -2,7 +2,6 @@ import axios from 'axios'
 import { useEffect, useState } from 'react'
 import { Preloader } from '../Component/Preloader.jsx'
 import { Link } from 'react-router-dom'
-import env from 'react-dotenv'
 const Home = () => {
     const [offset, setOffset] = useState(0)
     const [data, setData] = useState([])
@@ -63,7 +62,7 @@ const Home = () => {
             <div className='imgDiv'>
                 {
                     data.map((photo) => {
-                        return <Link key={photo.id} to={`/details/${photo.id}`}><img src={photo.url} alt="Pic" /></Link>
+                        return <Link key={photo.id} to={`/Image_Gallery/details/${photo.id}`}><img src={photo.url} alt="Pic" /></Link>
                     })
                 }
             </div>
