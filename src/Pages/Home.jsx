@@ -72,7 +72,7 @@ const Home = () => {
                 <div>
                     <p>{currentPage}</p>
                     <span>/</span>
-                    <p>{Math.round(totalData / limit)}</p>
+                    <p>{Math.ceil(totalData / limit)}</p>
                 </div>
                 <button onClick={() => { handlebtnClick("Inc") }} disabled={(offset >= totalData - limit) ? true : false}> &#8594;</button>
             </div>
