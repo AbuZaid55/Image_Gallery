@@ -49,7 +49,7 @@ const Home = () => {
             <div><Preloader preloader={preloader} /></div>
             <h1>Image Gallery</h1>
             <div className='select'>Limit:-
-                <select defaultValue={20} onChange={(e) => { let limit = Number(e.target.value); setLimit(limit) }}>
+                <select value={limit} onChange={(e) => { let limit = Number(e.target.value); setLimit(limit) }}>
                     <option value={10}>10</option>
                     <option value={20} >20</option>
                     <option value={30}>30</option>

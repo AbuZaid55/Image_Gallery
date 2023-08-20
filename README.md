@@ -12,7 +12,8 @@ React Image Gallery website
 ## Description
 
 It is created using React and Sass css. In this website has 3 page first Homepage second Detail Page and third 404 Page.
-if any user enter wrong url then it go to 404 page or if details not found then also it is goes to 404 page. On home page we can set limit that how many items render on home page. in this website i added pagination functionality.
+if any user enter wrong url then it go to 404 page or if details not found then also it is goes to 404 page. On home page we can set limit that how many items render on home page. 
+In this website i added pagination functionality and a preloader.
 
 ## Screenshots
 
