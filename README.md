@@ -17,7 +17,8 @@ In this website i added pagination functionality and a preloader.
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Screenshot_20230820_164846](https://github.com/AbuZaid55/Image_Gallery/assets/115403447/9822cca6-9479-466c-9fc0-46fe790ddf60)
+ ![Screenshot_20230820_164903](https://github.com/AbuZaid55/Image_Gallery/assets/115403447/81f5e844-52f5-49c5-bcfa-3bf96d99d437)
 
 
 ## 🔗 Links
