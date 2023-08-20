@@ -1,0 +1,40 @@
+#details {
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    @include flex(row);
+
+    & .details {
+        height: 50vh;
+        padding: 1rem;
+        background-color: #64748b;
+        color: white;
+        border-radius: 20px;
+        @include flex(row);
+        width: 80%;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+        & img {
+            width: 40%;
+            height: 100%;
+            border-radius: 15px;
+            background-color: white;
+        }
+
+        & div {
+            width: 100%;
+            padding: 2rem;
+
+            & h1 {
+                font-family: 'Lora', serif;
+                font-size: 2.5rem;
+                margin-bottom: 3rem;
+            }
+
+            & p {
+                font-size: 1.2rem;
+                margin-top: 3rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,61 @@
+@media screen and (max-width:800px) {
+    #details {
+        & .details {
+            height: 40vh;
+
+            & div h1 {
+                margin-bottom: 2rem;
+                font-size: 1.8rem;
+            }
+
+            & div p {
+                margin-top: 2rem;
+                font-size: 0.9rem;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    #details {
+        & .details {
+            height: 30vh;
+
+            & div h1 {
+                margin-bottom: 1rem;
+                font-size: 1.2rem;
+            }
+
+            & div p {
+                margin-top: 1rem;
+                font-size: 0.8rem;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    #details {
+        & .details {
+            @include flex(column);
+            align-items: flex-start;
+            padding: 1rem;
+            height: auto;
+            border-radius: 10px;
+
+            & img {
+                border-radius: 8px;
+                width: 50%;
+                height: 50%;
+            }
+
+            & div {
+                width: unset;
+                padding: 0;
+            }
+        }
+    }
+
+}
